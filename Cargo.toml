@@ -1,0 +1,16 @@
+[package]
+name = "tempconverter2025"
+version = "0.1.0"
+authors = ["Boss <Vladimirtlv@gmail.com>"]
+edition = "2021"
+description = "Simple Rust library to convert temperatures between Celsius, Fahrenheit, and Kelvin."
+license = "MIT"
+repository = "https://github.com/Cryptonations/tempconverter2025"
+documentation = "https://docs.rs/tempconverter2025"
+readme = "README.md"
+keywords = ["temperature", "conversion", "celsius", "fahrenheit", "kelvin"]
+categories = ["science"]
+
+[lib]
+name = "tempconverter2025"
+path = "src/lib.rs"

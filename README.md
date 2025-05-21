@@ -1,46 +1,23 @@
-# temp_converter
-
-A simple Python library to convert temperatures between Celsius and Fahrenheit.
 # tempconverter2025
 
-A simple JavaScript library for converting temperatures between Celsius and Fahrenheit.
+A simple Rust library to convert temperatures between Celsius, Fahrenheit, and Kelvin.
 
-Useful for any frontend or backend applications where temperature conversion is needed.
+## Usage
 
----
+Add this to your `Cargo.toml`:
 
-## 🌡️ Supported Conversions
-
-- Celsius ➡️ Fahrenheit  
-- Fahrenheit ➡️ Celsius  
-
----
-
-## 🚀 Installation
-
-```bash
-npm install tempconverter2025
+```toml
+tempconverter2025 = "0.1.0"
 ```
 
----
+Then in your code:
 
-## 🛠️ Usage
+```rust
+use tempconverter2025::*;
 
-```js
-const { celsiusToFahrenheit, fahrenheitToCelsius } = require('tempconverter2025');
-
-console.log(celsiusToFahrenheit(0));     // 32
-console.log(fahrenheitToCelsius(212));   // 100
+fn main() {
+    println!("{}", celsius_to_fahrenheit(0.0)); // 32.0
+    println!("{}", fahrenheit_to_celsius(212.0)); // 100.0
+    println!("{}", celsius_to_kelvin(100.0)); // 373.15
+}
 ```
-
----
-
-## 📦 Repository
-
-GitHub: [https://github.com/Cryptonations/tempconverter2025](https://github.com/Cryptonations/tempconverter2025)
-
----
-
-## 📄 License
-
-MIT — feel free to use and modify.
