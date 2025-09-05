@@ -7,7 +7,7 @@ A simple Rust library to convert temperatures between Celsius, Fahrenheit, and K
 Add this to your `Cargo.toml`:
 
 ```toml
-tempconverter2025 = "0.1.0"
+tempconverter2025 = "0.1.1"
 ```
 
 Then in your code:
